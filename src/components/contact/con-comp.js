@@ -17,7 +17,7 @@ const conComp = () => {
           <a href='tel:+251944187742'>+251-944-187-742</a>
         </div>
       </div>
-      <form className="contact-form">
+      <form className="contact-form" name="contact" method="POST" data-netlify="true">
       
         <label htmlFor="name">Name</label>
         <input type="text" id="name" name="name" required />
