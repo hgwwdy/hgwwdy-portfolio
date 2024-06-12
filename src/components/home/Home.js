@@ -40,8 +40,8 @@ const Home = () => {
               <p className="typing-text">A Front-End Developer</p>
             </div><br />
             <button className='h-work download-cv-button'onClick={handleDownload}>
-               <a href="https://drive.google.com/uc?export=download&id=1p2R7nHgwhZmYY8U26jWDbvOebs1JPd7_" className="download-cv-button"download></a>
-             Download CV </button> 
+               <a href="https://drive.google.com/uc?export=download&id=1p2R7nHgwhZmYY8U26jWDbvOebs1JPd7_" className="download-cv-button" download style={{textDecoration:'none' ,color:"white"}}>Download CV</a>
+   </button> 
            
 
             <button className='h-contact'><NavLink  
