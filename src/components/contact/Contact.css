@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.container3 span{
+    color: #408bcd;
+}
+
+.container3 {
+    width: 50%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(9,20,60);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.container3 a{
+    text-decoration: none;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contact-item h3 {
+    margin-top: 0;
+    color: rgb(9,20,60);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #408bcd;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color:blue;
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 600px) {
+    .contact-info {
+        flex-direction: row;
+    }
+
+    .contact-item {
+        flex: 2;
+        margin: 0 10px;
+    }
+}
+@media (max-width: 768px){
+    .container3{
+        width: 90%;
+        height: 80%;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        width: 80%;
+    }
+}

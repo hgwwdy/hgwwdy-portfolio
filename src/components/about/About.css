@@ -1,0 +1,144 @@
+.hero-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    background-color: #f4f4f4;
+}
+
+.img-hib2 {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin-left: 4.5rem;
+
+}
+
+.aboutme {
+    color: #408bcd;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .hero-container2 {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 567px) {
+
+    .aboutme {
+        align-self: center;
+        margin-left: 2rem;
+    }
+
+    .img-hib2 {
+        margin-left: -0.3rem;
+    }
+    .About{
+        margin-left: 0rem;
+    }
+
+}
+
+.specfics {
+    width: 100%;
+    padding: 10px;
+    margin-top: 2rem;
+    margin-left: rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.specfics h4 {
+    color: rgb(9, 20, 60);
+}
+
+.specfics a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.col {
+    flex: 1;
+    min-width: 280px;
+
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .hero-container2 {
+        width: 100%;
+    }
+
+    .specfics {
+        width: 90%;
+        margin-left: -9rem;
+
+    }
+
+    .col {
+        flex: 1 1 100%;
+        /* Makes columns stack on top of each other */
+        max-width: 70%;
+    }
+
+    .row a {
+        font-size: 12px;
+        margin-top: 1rem;
+    }
+
+    .mail {
+        margin-top: 0.25rem;
+    }
+
+    .row {
+        margin-left: -2rem;
+    }
+
+    .img-hib2 {
+        margin-left: -2rem;
+    }
+
+}
+
+/* Additional styling for spacing */
+h4 {
+    margin-top: 1em;
+}
+
+a {
+    display: block;
+    margin-top: 0rem;
+
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+
+/*tech stack*/
+.tech-stack {
+    margin-top: 4rem;
+}

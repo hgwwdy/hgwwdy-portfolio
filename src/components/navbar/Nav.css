@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    /* Remove box shadow on focus */
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size:1rem ;
+    /* White text color */
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #cccccc !important;
+    /* Change link color on hover/focus */
+    text-decoration: none !important;
+    /* Remove underline on hover */
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    /* Change link color */
+    margin: 0 15px !important;
+    /* Add margin to spread links apart */
+}
+.navbar-nav .nav-link.active {
+    color: #408bcd !important;
+    /* Active link color */
+}
+.navbar.bg-body-tertiary {
+    background-color: rgb(9,20,60)!important;
+    /* Light background color */
+}
+.navbar-toggler {
+    border: none;
+    outline: none !important;
+    background-color: #ffffff !important; 
+    /* Remove outline */
+    padding: 0.25rem 0.75rem;
+    transition: transform 0.3s ease;
+}
+.g-l i{
+    color: white;
+    margin-top: 0.75rem;
+    margin-right: 1rem;
+}
